@@ -1,0 +1,36 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'apeiroon'
+theme = 'typo'
+canonifyurls = true
+enableRobotsTXT = true
+
+[params]
+# Meta description
+description = "Apeiroon - Advanced SI enablers"
+faviconPath = '/images'
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+showFooter = false
+hideBackToTop = true
+
+# Social icons
+#[[params.social]]
+#name = "linkedin"
+#url = "https://www.linkedin.com/in/user/"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+
+[markup.goldmark.renderer]
+unsafe= true
